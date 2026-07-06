@@ -1,0 +1,361 @@
+[
+  {
+    "id": "pm_kisan",
+    "name": "PM-Kisan Samman Nidhi",
+    "name_ta": "பிரதமர் கிசான் சம்மான் நிதி",
+    "sector": "Agriculture",
+    "sector_ta": "விவசாயம்",
+    "description": "Income support of Rs 6000/year for small and marginal farmer families.",
+    "description_ta": "சிறு மற்றும் குறு விவசாயக் குடும்பங்களுக்கு ஆண்டுக்கு ரூ.6000 நிதி உதவி.",
+    "eligibility": {
+      "occupation": ["farmer"],
+      "land_owner": true,
+      "max_income": 1000000
+    },
+    "documents": ["Aadhaar Card", "Land Records", "Bank Passbook"],
+    "how_to_apply": [
+      "Visit the PM-Kisan portal or nearest Common Service Centre (CSC)",
+      "Fill the registration form with Aadhaar and land details",
+      "Upload land ownership documents",
+      "Submit and note your registration number for tracking"
+    ],
+    "how_to_apply_ta": [
+      "PM-கிசான் இணையதளம் அல்லது அருகிலுள்ள பொது சேவை மையத்தை (CSC) பார்வையிடவும்",
+      "ஆதார் மற்றும் நில விவரங்களுடன் பதிவு படிவத்தை நிரப்பவும்",
+      "நில உரிமை ஆவணங்களை பதிவேற்றவும்",
+      "சமர்ப்பித்து, கண்காணிப்புக்காக உங்கள் பதிவு எண்ணை குறித்துக் கொள்ளவும்"
+    ],
+    "apply_link": "https://pmkisan.gov.in",
+    "office": "Common Service Centre (CSC) / Village Revenue Officer",
+    "office_ta": "பொது சேவை மையம் (CSC) / கிராம வருவாய் அலுவலர்",
+    "deadline": "Rolling"
+  },
+  {
+    "id": "ayushman_bharat",
+    "name": "Ayushman Bharat (PM-JAY)",
+    "name_ta": "ஆயுஷ்மான் பாரத் (PM-JAY)",
+    "sector": "Health",
+    "sector_ta": "சுகாதாரம்",
+    "description": "Health insurance cover of Rs 5 lakh per family per year for secondary and tertiary care.",
+    "description_ta": "ஒரு குடும்பத்திற்கு ஆண்டுக்கு ரூ.5 லட்சம் வரை மருத்துவக் காப்பீடு.",
+    "eligibility": {
+      "max_income": 250000
+    },
+    "documents": ["Aadhaar Card", "Ration Card", "Income Certificate"],
+    "how_to_apply": [
+      "Check eligibility on the PM-JAY website using your mobile number or ration card",
+      "Visit nearest Ayushman Bharat empanelled hospital or CSC",
+      "Verify identity and get your Ayushman Card generated"
+    ],
+    "how_to_apply_ta": [
+      "PM-JAY இணையதளத்தில் உங்கள் மொபைல் எண் அல்லது குடும்ப அட்டையுடன் தகுதியை சரிபார்க்கவும்",
+      "அருகிலுள்ள ஆயுஷ்மான் பாரத் பதிவு செய்யப்பட்ட மருத்துவமனை அல்லது CSC-க்குச் செல்லவும்",
+      "அடையாளத்தை சரிபார்த்து உங்கள் ஆயுஷ்மான் அட்டையைப் பெறவும்"
+    ],
+    "apply_link": "https://pmjay.gov.in",
+    "office": "Ayushman Bharat Kendra / Empanelled Hospital",
+    "office_ta": "ஆயுஷ்மான் பாரத் மையம் / பதிவு செய்யப்பட்ட மருத்துவமனை",
+    "deadline": "Rolling"
+  },
+  {
+    "id": "pmay",
+    "name": "Pradhan Mantri Awas Yojana (PMAY)",
+    "name_ta": "பிரதமர் ஆவாஸ் யோஜனா (PMAY)",
+    "sector": "Housing",
+    "sector_ta": "வீட்டுவசதி",
+    "description": "Financial assistance for construction/purchase of a house for economically weaker sections.",
+    "description_ta": "பொருளாதாரத்தில் பின்தங்கிய குடும்பங்களுக்கு வீடு கட்ட/வாங்க நிதி உதவி.",
+    "eligibility": {
+      "max_income": 1800000,
+      "land_owner": false
+    },
+    "documents": ["Aadhaar Card", "Income Certificate", "Bank Passbook", "Passport Size Photo"],
+    "how_to_apply": [
+      "Go to the PMAY official website",
+      "Select urban or rural scheme based on your address",
+      "Fill in personal, income and bank details",
+      "Submit application and track status online"
+    ],
+    "how_to_apply_ta": [
+      "PMAY அதிகாரப்பூர்வ இணையதளத்திற்குச் செல்லவும்",
+      "உங்கள் முகவரியின் அடிப்படையில் நகர்ப்புற அல்லது கிராமப்புற திட்டத்தைத் தேர்ந்தெடுக்கவும்",
+      "தனிப்பட்ட, வருமான மற்றும் வங்கி விவரங்களை நிரப்பவும்",
+      "விண்ணப்பத்தை சமர்ப்பித்து ஆன்லைனில் நிலையை கண்காணிக்கவும்"
+    ],
+    "apply_link": "https://pmaymis.gov.in",
+    "office": "Municipal Corporation / Gram Panchayat Office",
+    "office_ta": "நகராட்சி / கிராம பஞ்சாயத்து அலுவலகம்",
+    "deadline": "2026-12-31"
+  },
+  {
+    "id": "nmms_scholarship",
+    "name": "National Means-cum-Merit Scholarship",
+    "name_ta": "தேசிய தகுதி மற்றும் வருமான அடிப்படை உதவித்தொகை",
+    "sector": "Education",
+    "sector_ta": "கல்வி",
+    "description": "Scholarship for meritorious students from economically weaker sections to prevent dropout after Class 8.",
+    "description_ta": "எட்டாம் வகுப்புக்குப் பிறகு படிப்பை நிறுத்தாமல் இருக்க, பொருளாதார பின்தங்கிய திறமையான மாணவர்களுக்கான உதவித்தொகை.",
+    "eligibility": {
+      "occupation": ["student"],
+      "max_income": 350000,
+      "max_age": 20
+    },
+    "documents": ["Aadhaar Card", "Income Certificate", "School ID / Bonafide Certificate", "Bank Passbook"],
+    "how_to_apply": [
+      "Register on the National Scholarship Portal (NSP)",
+      "Fill academic and family income details",
+      "Upload required certificates",
+      "Submit before the academic year deadline"
+    ],
+    "how_to_apply_ta": [
+      "தேசிய உதவித்தொகை போர்ட்டலில் (NSP) பதிவு செய்யவும்",
+      "கல்வி மற்றும் குடும்ப வருமான விவரங்களை நிரப்பவும்",
+      "தேவையான சான்றிதழ்களை பதிவேற்றவும்",
+      "கல்வி ஆண்டு கடைசி தேதிக்குள் சமர்ப்பிக்கவும்"
+    ],
+    "apply_link": "https://scholarships.gov.in",
+    "office": "School / District Education Office",
+    "office_ta": "பள்ளி / மாவட்ட கல்வி அலுவலகம்",
+    "deadline": "2026-10-31"
+  },
+  {
+    "id": "sukanya_samriddhi",
+    "name": "Sukanya Samriddhi Yojana",
+    "name_ta": "சுகன்யா சம்ருத்தி யோஜனா",
+    "sector": "Women & Child",
+    "sector_ta": "பெண்கள் & குழந்தைகள்",
+    "description": "Small savings scheme for the financial security of a girl child, offering high interest rates.",
+    "description_ta": "பெண் குழந்தையின் எதிர்கால நிதி பாதுகாப்புக்கான அதிக வட்டி விகித சேமிப்புத் திட்டம்.",
+    "eligibility": {
+      "gender": ["female"],
+      "max_age": 10
+    },
+    "documents": ["Birth Certificate", "Aadhaar Card of Guardian", "Passport Size Photo"],
+    "how_to_apply": [
+      "Visit nearest post office or authorized bank branch",
+      "Fill the account opening form with guardian details",
+      "Deposit minimum initial amount (Rs 250)",
+      "Collect passbook"
+    ],
+    "how_to_apply_ta": [
+      "அருகிலுள்ள தபால் நிலையம் அல்லது அங்கீகரிக்கப்பட்ட வங்கிக் கிளைக்குச் செல்லவும்",
+      "பாதுகாவலர் விவரங்களுடன் கணக்கு தொடங்கும் படிவத்தை நிரப்பவும்",
+      "குறைந்தபட்ச ஆரம்ப தொகையை (ரூ.250) செலுத்தவும்",
+      "பாஸ்புக்கைப் பெறவும்"
+    ],
+    "apply_link": "https://www.india.gov.in/sukanya-samriddhi-yojana",
+    "office": "Post Office / Authorized Bank Branch",
+    "office_ta": "தபால் நிலையம் / அங்கீகரிக்கப்பட்ட வங்கிக் கிளை",
+    "deadline": "Rolling"
+  },
+  {
+    "id": "atal_pension",
+    "name": "Atal Pension Yojana",
+    "name_ta": "அடல் ஓய்வூதிய திட்டம்",
+    "sector": "Finance & Pension",
+    "sector_ta": "நிதி & ஓய்வூதியம்",
+    "description": "Pension scheme for unorganized sector workers guaranteeing fixed monthly pension after age 60.",
+    "description_ta": "அமைப்புசாரா தொழிலாளர்களுக்கு 60 வயதிற்குப் பிறகு மாதாந்திர ஓய்வூதியம் உறுதி செய்யும் திட்டம்.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 40
+    },
+    "documents": ["Aadhaar Card", "Bank Passbook", "Mobile Number"],
+    "how_to_apply": [
+      "Visit your bank or use net banking/mobile banking app",
+      "Fill the APY registration form",
+      "Choose your desired pension amount",
+      "Set up auto-debit for monthly contribution"
+    ],
+    "how_to_apply_ta": [
+      "உங்கள் வங்கிக்குச் செல்லவும் அல்லது நெட் பேங்கிங்/மொபைல் பேங்கிங் ஆப்பைப் பயன்படுத்தவும்",
+      "APY பதிவு படிவத்தை நிரப்பவும்",
+      "நீங்கள் விரும்பும் ஓய்வூதியத் தொகையைத் தேர்ந்தெடுக்கவும்",
+      "மாதாந்திர பங்களிப்புக்கு ஆட்டோ-டெபிட் அமைக்கவும்"
+    ],
+    "apply_link": "https://www.npscra.nsdl.co.in/scheme-details.php",
+    "office": "Any Bank Branch / Post Office",
+    "office_ta": "எந்த வங்கிக் கிளை / தபால் நிலையம்",
+    "deadline": "Rolling"
+  },
+  {
+    "id": "ujjwala",
+    "name": "PM Ujjwala Yojana",
+    "name_ta": "பிரதமர் உஜ்ஜவலா யோஜனா",
+    "sector": "Women & Welfare",
+    "sector_ta": "பெண்கள் & நலன்",
+    "description": "Free LPG gas connection for women from BPL households.",
+    "description_ta": "வறுமைக்கோட்டிற்குக் கீழ் உள்ள குடும்பங்களைச் சேர்ந்த பெண்களுக்கு இலவச எல்பிஜி இணைப்பு.",
+    "eligibility": {
+      "gender": ["female"],
+      "max_income": 250000
+    },
+    "documents": ["Aadhaar Card", "BPL Card / Income Certificate", "Bank Passbook", "Passport Size Photo"],
+    "how_to_apply": [
+      "Visit nearest LPG distributor",
+      "Fill the Ujjwala application form (KYC form)",
+      "Submit identity and income proof",
+      "Receive free gas connection"
+    ],
+    "how_to_apply_ta": [
+      "அருகிலுள்ள எல்பிஜி விநியோகஸ்தரிடம் செல்லவும்",
+      "உஜ்ஜவலா விண்ணப்ப படிவத்தை (KYC படிவம்) நிரப்பவும்",
+      "அடையாளம் மற்றும் வருமான ஆதாரத்தை சமர்ப்பிக்கவும்",
+      "இலவச கேஸ் இணைப்பைப் பெறவும்"
+    ],
+    "apply_link": "https://pmuy.gov.in",
+    "office": "Nearest LPG Gas Agency",
+    "office_ta": "அருகிலுள்ள எல்பிஜி கேஸ் ஏஜென்சி",
+    "deadline": "Rolling"
+  },
+  {
+    "id": "ignoaps",
+    "name": "Indira Gandhi National Old Age Pension Scheme",
+    "name_ta": "இந்திரா காந்தி தேசிய முதுமை ஓய்வூதியத் திட்டம்",
+    "sector": "Senior Citizen",
+    "sector_ta": "மூத்த குடிமக்கள்",
+    "description": "Monthly pension support for elderly citizens below the poverty line.",
+    "description_ta": "வறுமைக்கோட்டிற்குக் கீழ் உள்ள முதியோருக்கு மாதாந்திர ஓய்வூதியம்.",
+    "eligibility": {
+      "min_age": 60,
+      "max_income": 250000
+    },
+    "documents": ["Aadhaar Card", "Age Proof", "BPL Card / Income Certificate", "Bank Passbook"],
+    "how_to_apply": [
+      "Visit the Gram Panchayat or Municipal office",
+      "Fill the old age pension application form",
+      "Submit age and income proof",
+      "Verification by local officer, then pension starts"
+    ],
+    "how_to_apply_ta": [
+      "கிராம பஞ்சாயத்து அல்லது நகராட்சி அலுவலகத்திற்குச் செல்லவும்",
+      "முதுமை ஓய்வூதிய விண்ணப்பப் படிவத்தை நிரப்பவும்",
+      "வயது மற்றும் வருமான ஆதாரத்தை சமர்ப்பிக்கவும்",
+      "உள்ளூர் அதிகாரி சரிபார்த்த பிறகு ஓய்வூதியம் தொடங்கும்"
+    ],
+    "apply_link": "https://nsap.nic.in",
+    "office": "Gram Panchayat / Municipal Office",
+    "office_ta": "கிராம பஞ்சாயத்து / நகராட்சி அலுவலகம்",
+    "deadline": "Rolling"
+  },
+  {
+    "id": "disability_pension",
+    "name": "National Disability Pension Scheme",
+    "name_ta": "தேசிய மாற்றுத்திறனாளிகள் ஓய்வூதியத் திட்டம்",
+    "sector": "Disability Welfare",
+    "sector_ta": "மாற்றுத்திறனாளர் நலன்",
+    "description": "Monthly pension for persons with severe disabilities from low-income families.",
+    "description_ta": "கடுமையான மாற்றுத்திறனுடைய, குறைந்த வருமானம் கொண்ட குடும்பத்தினருக்கு மாதாந்திர ஓய்வூதியம்.",
+    "eligibility": {
+      "disability": true,
+      "min_age": 18,
+      "max_income": 250000
+    },
+    "documents": ["Aadhaar Card", "Disability Certificate", "Income Certificate", "Bank Passbook"],
+    "how_to_apply": [
+      "Visit the Social Welfare Department office",
+      "Fill the disability pension form",
+      "Attach disability certificate issued by a medical board",
+      "Submit for verification and approval"
+    ],
+    "how_to_apply_ta": [
+      "சமூக நலத்துறை அலுவலகத்திற்குச் செல்லவும்",
+      "மாற்றுத்திறனாளிகள் ஓய்வூதிய படிவத்தை நிரப்பவும்",
+      "மருத்துவ வாரியம் வழங்கிய மாற்றுத்திறன் சான்றிதழை இணைக்கவும்",
+      "சரிபார்ப்பு மற்றும் ஒப்புதலுக்காக சமர்ப்பிக்கவும்"
+    ],
+    "apply_link": "https://nsap.nic.in",
+    "office": "Social Welfare Department / Gram Panchayat",
+    "office_ta": "சமூக நலத்துறை / கிராம பஞ்சாயத்து",
+    "deadline": "Rolling"
+  },
+  {
+    "id": "beti_bachao",
+    "name": "Beti Bachao Beti Padhao",
+    "name_ta": "பெண் குழந்தையைக் காப்போம், படிக்க வைப்போம்",
+    "sector": "Women & Child",
+    "sector_ta": "பெண்கள் & குழந்தைகள்",
+    "description": "Scheme promoting welfare, survival, protection and education of the girl child.",
+    "description_ta": "பெண் குழந்தையின் நலன், பாதுகாப்பு மற்றும் கல்வியை மேம்படுத்தும் திட்டம்.",
+    "eligibility": {
+      "gender": ["female"],
+      "max_age": 18
+    },
+    "documents": ["Birth Certificate", "Aadhaar Card of Guardian", "School Certificate (if applicable)"],
+    "how_to_apply": [
+      "Contact the local Anganwadi Centre or district welfare office",
+      "Enroll the girl child under the scheme",
+      "Access linked benefits like Sukanya Samriddhi Account"
+    ],
+    "how_to_apply_ta": [
+      "உள்ளூர் அங்கன்வாடி மையம் அல்லது மாவட்ட நல அலுவலகத்தைத் தொடர்பு கொள்ளவும்",
+      "பெண் குழந்தையை இத்திட்டத்தின் கீழ் பதிவு செய்யவும்",
+      "சுகன்யா சம்ருத்தி கணக்கு போன்ற தொடர்புடைய பலன்களைப் பெறவும்"
+    ],
+    "apply_link": "https://wcd.nic.in/bbbp-schemes",
+    "office": "Anganwadi Centre / District Welfare Office",
+    "office_ta": "அங்கன்வாடி மையம் / மாவட்ட நல அலுவலகம்",
+    "deadline": "Rolling"
+  },
+  {
+    "id": "pmkvy",
+    "name": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+    "name_ta": "பிரதமர் திறன் மேம்பாட்டுத் திட்டம் (PMKVY)",
+    "sector": "Skill Development",
+    "sector_ta": "திறன் மேம்பாடு",
+    "description": "Free skill training and certification to improve employability of youth.",
+    "description_ta": "இளைஞர்களின் வேலைவாய்ப்புத் திறனை மேம்படுத்த இலவச திறன் பயிற்சி மற்றும் சான்றிதழ்.",
+    "eligibility": {
+      "min_age": 15,
+      "max_age": 45,
+      "occupation": ["student", "unemployed"]
+    },
+    "documents": ["Aadhaar Card", "Bank Passbook", "Passport Size Photo"],
+    "how_to_apply": [
+      "Locate nearest PMKVY training centre online",
+      "Register with Aadhaar and basic details",
+      "Choose a skill training course",
+      "Complete training and receive certification"
+    ],
+    "how_to_apply_ta": [
+      "ஆன்லைனில் அருகிலுள்ள PMKVY பயிற்சி மையத்தைக் கண்டறியவும்",
+      "ஆதார் மற்றும் அடிப்படை விவரங்களுடன் பதிவு செய்யவும்",
+      "ஒரு திறன் பயிற்சி படிப்பைத் தேர்ந்தெடுக்கவும்",
+      "பயிற்சியை முடித்து சான்றிதழைப் பெறவும்"
+    ],
+    "apply_link": "https://pmkvyofficial.org",
+    "office": "Nearest PMKVY Training Centre",
+    "office_ta": "அருகிலுள்ள PMKVY பயிற்சி மையம்",
+    "deadline": "Rolling"
+  },
+  {
+    "id": "standup_india",
+    "name": "Stand-Up India",
+    "name_ta": "ஸ்டாண்ட்-அப் இந்தியா",
+    "sector": "Entrepreneurship & Finance",
+    "sector_ta": "தொழில்முனைவு & நிதி",
+    "description": "Bank loans between Rs 10 lakh and Rs 1 crore for SC/ST and women entrepreneurs to set up a new enterprise.",
+    "description_ta": "புதிய தொழில் தொடங்க எஸ்சி/எஸ்டி மற்றும் பெண் தொழில்முனைவோருக்கு ரூ.10 லட்சம் முதல் ரூ.1 கோடி வரை வங்கிக் கடன்.",
+    "eligibility": {
+      "min_age": 18,
+      "occupation": ["self-employed", "unemployed"]
+    },
+    "documents": ["Aadhaar Card", "PAN Card", "Business/Project Plan", "Caste Certificate (if applicable)"],
+    "how_to_apply": [
+      "Visit the Stand-Up India portal or nearest bank branch",
+      "Fill the loan application with business plan details",
+      "Submit identity, category and project documents",
+      "Bank processes and disburses the loan"
+    ],
+    "how_to_apply_ta": [
+      "ஸ்டாண்ட்-அப் இந்தியா போர்ட்டல் அல்லது அருகிலுள்ள வங்கிக் கிளைக்குச் செல்லவும்",
+      "வணிகத் திட்ட விவரங்களுடன் கடன் விண்ணப்பத்தை நிரப்பவும்",
+      "அடையாளம், பிரிவு மற்றும் திட்ட ஆவணங்களை சமர்ப்பிக்கவும்",
+      "வங்கி செயலாக்கம் செய்து கடனை வழங்கும்"
+    ],
+    "apply_link": "https://www.standupmitra.in",
+    "office": "Nearest Public Sector Bank Branch",
+    "office_ta": "அருகிலுள்ள பொதுத்துறை வங்கிக் கிளை",
+    "deadline": "Rolling"
+  }
+]
