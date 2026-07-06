@@ -1,4 +1,5 @@
-# 🏛️ Government Scheme Assistant — Multi-Agent AI App
+# 🏛️ Government Scheme Assistant 
+### AI-Powered Multi-Agent Platform for Government Welfare Scheme Discovery
 
 An agentic AI app that helps citizens discover which government schemes
 they qualify for, what documents they need, and how to apply — now with
@@ -52,30 +53,13 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### 3. First-time login
-A default admin account is created automatically:
-- **Username:** `admin`
-- **Password:** `admin123`
+### 3. First-time Login
 
-**Change this password** (or create a new admin manually in the database)
-before submitting/demoing this project publicly, since this default is
-visible in this README.
+An administrator account is initialized during the first setup. The administrator credentials are managed securely by the application owner and are not publicly disclosed.
 
-Citizens can create their own account from the "Sign Up" tab, or click
-"Continue as Guest" to use the app without one (guests can't save profiles).
+Citizens can create their own account from the **Sign Up** tab or continue as a guest without registering.
 
-### 4. (Optional) Enable the FAQ tab's AI answers
-- Get a free key at https://console.groq.com
-- Copy `.env.example` to `.env` and paste your key in
-
-### 5. (Optional) Enable Tamil PDF rendering
-- Download "Noto Sans Tamil" (Regular + Bold) from Google Fonts
-- Place both `.ttf` files in the `fonts/` folder
-- (Note: the downloadable PDF report is always generated in English by
-  default for reliability, regardless of this font — see `app.py` if you
-  want to change that.)
-
-## Using the Admin Panel
+### 4. Using the Admin Panel
 
 Log in as `admin` → select "🛠️ Admin Panel" in the sidebar → you can:
 - **View All Schemes**: see every scheme currently in the system
@@ -87,7 +71,7 @@ Log in as `admin` → select "🛠️ Admin Panel" in the sidebar → you can:
 Changes take effect immediately for every citizen using the app — no
 restart needed.
 
-## Using the Analytics Dashboard
+### 5. Using the Analytics Dashboard
 
 Log in as `admin` → select "📊 Analytics" → see:
 - Total searches performed
@@ -99,7 +83,7 @@ Log in as `admin` → select "📊 Analytics" → see:
 All analytics data is anonymous — only demographic fields and match
 results are logged, never names or contact details.
 
-## Project Structure
+### 6. Project Structure
 ```
 scheme-app/
 ├── app.py                    # Main entry point: auth gate + navigation
@@ -124,26 +108,16 @@ scheme-app/
     └── pdf_agent.py
 ```
 
-## For Your Report / Viva
+### 7. Technologies Used
+- Python
+- Streamlit
+- SQLite
+- Groq LLM
+- ReportLab
+- dotenv
+- JSON
 
-- This is a **rule-based + LLM hybrid multi-agent system** with a
-  persistent database layer, orchestrated by a central controller —
-  demonstrating both the "agentic AI" pattern and standard full-stack
-  concepts (auth, CRUD, analytics).
-- **Team division suggestion** (if working in a group):
-  - Member 1: Agent logic & database layer (agents/, db.py, orchestrator.py)
-  - Member 2: Citizen-facing UI & bilingual support (app.py, translations.py)
-  - Member 3: Admin panel, analytics dashboard, PDF export, testing
-- To extend further: add email/SMS deadline reminders, a "nearest office"
-  map using geolocation, or migrate schemes to a proper multi-admin
-  approval workflow.
-
-## Troubleshooting
-- **"streamlit: command not found"** → activate your virtual environment
-  first (you should see `(venv)` in your terminal).
-- **Blank/error page in browser** → check the terminal for the actual
-  Python error and share it for help.
-- **Forgot admin password** → delete `scheme_app.db` and restart the app;
-  a fresh database (with a new default admin) will be created. Note this
-  also erases all saved schemes/users/logs, so only do this if you don't
-  mind losing existing data.
+### 8. Authors
+PK Keerthika
+S Sangavi
+S Praveena
